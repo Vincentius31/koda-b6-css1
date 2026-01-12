@@ -81,7 +81,32 @@
     font-weight: bold;
 }
 
+/* Explanation Section */
 
+.explanation-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+}
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.explanation-content{
+    text-align: center;
+    width: 300px;
+}
+
+.explanation-content h2{
+    font-size: 20px;
+}
+
+.explanation-content p{
+    font-size: 15px;
+}
 
