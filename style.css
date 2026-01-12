@@ -1,46 +1,43 @@
 *{
     margin: 0;
     font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
 }
 
 .navbar{
-    position: relative;
-}
-.navbar > h1{
-    position: absolute;
-    font-size: 40px;
-    padding-left: 75px;
-    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color:#333;
+    padding: 10px 20px;
+    height: 60px;
 }
 
-.navbar ul li{
+.navbar-logo{
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 100px;
+}
+
+.navbar-logo span{
+    color: lightblue;
+}
+
+.navbar-menu{
+    display: flex;
     list-style: none;
-    display: inline-block;
-    position: relative;
-    width: 60px;
-    left: 62%;
-    padding-top: 35px;
+    gap: 15px;
+    padding-right: 150px;
 }
 
-.navbar li{
-    font-size: 15px;
-}
-
-.navbar a{
+.navbar-menu li a{
+    color: #333;
     text-decoration: none;
-    color: black;
+    display: block;
 }
 
-@media (max-width: 768px){
-    .navbar ul li{
-        list-style: none;
-        display: inline-block;
-        position: relative;
-        width: 100%;
-        left: 50px;
-        top: 70px;
-        padding-top: 40px;
-    }
-}
+
+
 
 
