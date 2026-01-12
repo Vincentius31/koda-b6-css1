@@ -76,10 +76,9 @@ p {
     padding: 10px 30px;
     background-color: #333; 
     color: white;
-    text-decoration: none; /* Removes default underline from link */
+    text-decoration: none; 
     border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s; /* Smooth transition on hover */
 }
 
 
